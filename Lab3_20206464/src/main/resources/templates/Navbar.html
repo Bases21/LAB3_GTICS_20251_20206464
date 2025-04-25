@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="UTF-8">
+
+    </head>
+    <body>
+
+        <nav>
+            <form th:action="@{/employees}" method="get">
+                <button type="submit">Empleados</button>
+            </form>
+            <form th:action="@{/history}" method="get">
+                <button type="submit">Historial</button>
+            </form>
+            <form th:action="@{/reports}" method="get">
+                <button type="submit">Reportes</button>
+            </form>
+        </nav>
+
+    </body>
+</html>
